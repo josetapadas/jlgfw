@@ -1,9 +1,17 @@
 import React from "react"
 
-const CURRENT_STREAM = "https://www.youtube.com/embed/21X5lGlDOfg";
+const CURRENT_STREAM = "https://www.youtube.com/watch?v=21X5lGlDOfg";
 
-export default () => (
-    <div>
-        <iframe width="560" height="315" src={CURRENT_STREAM} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-    </div>
-);
+class Index extends React.Component {
+    componentDidMount() {
+        setTimeout(function () {
+            window.location.href = CURRENT_STREAM;
+         }, 2000);
+    }
+
+    render() {
+        return <div>Redirecting ...</div>;
+    }
+}
+
+export default Index;
