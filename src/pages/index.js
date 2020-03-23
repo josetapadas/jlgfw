@@ -1,6 +1,6 @@
 import React from "react"
 
-const CURRENT_STREAM = "https://www.youtube.com/embed/5qap5aO4i9A";
+const CURRENT_STREAM = "https://www.youtube.com/embed/ns2POBYJtuw";
 
 export default () => (
     <div>
