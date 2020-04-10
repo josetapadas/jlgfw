@@ -1,6 +1,6 @@
 import React from "react"
 
-const CURRENT_STREAM = "https://www.youtube.com/watch?v=JvrOTtOlBNI";
+const CURRENT_STREAM = "https://www.youtube.com/watch?v=gOGU4e42pB4";
 
 class Index extends React.Component {
     componentDidMount() {
